@@ -1,0 +1,121 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: url('bg.jpg');
+    background-position: center;
+    color: white;
+
+}
+
+.left {
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+
+
+}
+
+.left img {
+    width: 100px;
+    /* filter:invert(100%) */
+}
+
+.left div {
+    line-height: 15px;
+    font-size: 14px;
+    text-align: center;
+    color: red;
+}
+
+.mid {
+    display: block;
+    width: 55%;
+    margin: 20px auto;
+    /* border: 2px solid green; */
+
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+
+}
+
+.navbar li {
+
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a.active,
+.navbar li a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(129, 127, 127);
+}
+
+.container {
+    /* border: 2px solid white; */
+    margin: 100px 80px;
+    padding: 45px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 7px auto;
+    font-size: 19px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+    margin: 6px;
+}
+
+.container h2 {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container form button {
+    display: block;
+    width: 500px;
+    margin: 20px auto;
+    font-size: 19px;
+}
